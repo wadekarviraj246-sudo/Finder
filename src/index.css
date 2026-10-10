@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  nav {
+    height: auto !important;
+  }
+  nav > div {
+    flex-wrap: wrap;
+    padding: 15px !important;
+  }
+
+  /* Cards */
+  .flex.gap-5 {
+    flex-wrap: wrap;
+  }
+  .flex.gap-5 > div {
+    width: 45% !important;
+  }
+
+  /* Footer */
+  .bg-black.flex {
+    height: auto !important;
+    flex-wrap: wrap;
+    padding: 20px !important;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+
+  /* Navbar */
+  nav > div {
+    justify-content: center;
+  }
+  nav > div > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Search box */
+  input {
+    width: 90% !important;
+    margin: 10px auto !important;
+  }
+
+  /* Cards appear one below another */
+  .flex.gap-5 > div {
+    width: 100% !important;
+  }
+  .flex.gap-5 {
+    padding: 15px !important;
+  }
+
+  /* Images */
+  .flex.gap-20 {
+    flex-direction: column;
+    gap: 20px !important;
+  }
+  .flex.gap-20 img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Footer */
+  .bg-black.flex {
+    flex-direction: column;
+    gap: 25px !important;
+  }
+
+  /* Remove large margins */
+  .ml-117,
+  .ml-100 {
+    margin-left: 0 !important;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+  nav button {
+    padding: 8px !important;
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 24px !important;
+  }
+  .relative img {
+    height: 250px !important;
+  }
+}
