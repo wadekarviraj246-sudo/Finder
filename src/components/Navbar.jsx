@@ -40,7 +40,7 @@ const Navbar = () => {
           <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> ☼ </button>
 
           {/* User */}
-          <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> ♙ </button>
+          <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> 👤 </button>
 
           {/* Add Business */}
           <button className="flex items-center gap-3 bg-red-500 hover:bg-red-600 text-white font-semibold text-lg px-6 py-3.5 rounded-full hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out">
