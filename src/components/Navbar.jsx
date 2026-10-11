@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="flex items-center gap-7">
 
           {/* Theme */}
-          <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> ☼ </button>
+          <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> ☀️ </button>
 
           {/* User */}
           <button className="text-2xl text-gray-800 hover:text-red-500 hover:-translate-y-1 hover:scale-100 hover:transition duration-300 ease-in-out"> 👤 </button>
